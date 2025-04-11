@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services</title>
+</head>
+<body>
+    <center><h1>Our Services</h1></center>
+    <p><b>Here are the details of our services...</b></p>
+    <h2>Course Listings/Descriptions:</h2>
+    <ul>
+<li>Detailed information about each course offered (e.g., HTML/CSS, JavaScript, Python for Web, React, Node.js).</li>
+<li>Course outlines, syllabi, and learning objectives.</li>
+<li>Information about course duration, schedule, and format (online, in-person, hybrid).</li>
+<li>Prerequisites for each course.</li>
+<h2>Enrollment/Registration:</h2>
+<li>Online registration forms.</li>
+<li>Secure payment processing.</li>
+<li>Automated enrollment confirmation and course access.</li>
+<h2>Learning Management System (LMS) Integration (Optional, but highly beneficial):</h2>
+<li>Access to course materials (videos, documents, code examples).</li>
+<li>Assignment submission and grading.</li>
+<li>Discussion forums and student interaction.</li>
+<li><li>Discussion forums and student interaction.</li></li>
+       <p>Service 3: ...</p>
+    <a href="devzone.html">Back to Home</a>
+</body>
+</html>
+

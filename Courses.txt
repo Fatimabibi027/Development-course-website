@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <style>
+        body {
+
+background-image:
+url(https://i.pinimg.com/736x/0a/b7/f9/0ab7f93e39e7ca6606c19800d053f39a.jpg);
+background-size:cover;
+background-position: center;
+
+
+            font-family: times new roman;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .course-header {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .course-header img {
+            max-width: 300px;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .course-section {
+            width: 80%;
+            margin-top: 30px;
+        }
+
+        .course {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
+
+        .course img {
+            max-width: 200px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        .course-description {
+            flex-grow: 1;
+        }
+
+        @media (max-width: 768px) {
+            .course {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .course img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="course-header">
+        <h1>Courses we offer</h1>
+        <img src="D:\WhatsApp Image 2025-03-26 at 00.47.10_82585f12.jpg"Website Development Courses">
+    </div>
+
+    <div class="course-section">
+        <div class="course">
+            <img src="D:\WhatsApp Image 2025-03-26 at 00.47.09_dd6edd87.jpg"HTML Course">
+            <div class="course-description">
+                <h2>HTML Fundamentals</h2>
+                <p>Learn the basics of HTML, the standard markup language for creating web pages. This course covers tags, elements, attributes, and page structure.</p>
+            </div>
+        </div>
+
+        <div class="course">
+            <img src="D:\WhatsApp Image 2025-03-26 at 00.47.08_aa64ed5b.jpg" alt="CSS Course">
+            <div class="course-description">
+                <h2>CSS Styling</h2>
+                <p>Master CSS to style and layout web pages. This course covers selectors, properties, box model, and responsive design techniques.</p>
+            </div>
+        </div>
+
+        <div class="course">
+            <img src="D:\WhatsApp Image 2025-03-26 at 00.47.09_8eb57113.jpg" alt="Java Course">
+            <div class="course-description">
+                <h2>Java Programming</h2>
+                <p>Dive into Java programming, a versatile language used for web applications, Android development, and more. This course covers syntax, object-oriented concepts, and practical applications.</p>
+            </div>
+        </div>
+        <div class="course">
+            <img src="D:\WhatsApp Image 2025-03-26 at 00.47.07_7ed92fad.jpg" alt="Cybersecurity Course">
+            <div class="course-description">
+                <h2>Cybersecurity Basics</h2>
+                <p>Gain foundational knowledge in cybersecurity, including network security, ethical hacking, and data protection. Learn to identify and mitigate common cyber threats.</p>
+            </div>
+        </div>
+    </div>
+ <a href="devzone.html">Back to Home</a>
+
+</body>
+</html>

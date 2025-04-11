@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Registeration</title>
+<body style="background-image: url("C:\Users\sb\Downloads\download.jpeg"); background-size: cover;">
+<style>
+body{display:flex;justify-content:center;align-items:center;height:100vh;margin:0;background:#f0f0f0}
+.confirmation-text{font-size:4em;font-weight:bold;text-align:center;color:#333;font-family:sans-serif}
+</style>
+</head>
+</body>
+<body>
+<div class="confirmation-text">Congratulations! You have Registered in DevZone</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>DevZone</title>
+    <style>
+  
+
+        body {
+background-image:
+url('\WhatsApp Image 2025-03-21 at 11.51.21_cf36676b.jpg');
+background-size:cover;
+background-position: center;
+}
+            font-family: Times new roman;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; 
+        }
+
+        header {
+            background-color: White;
+            color: White;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: White;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: Light Grey;
+            color:black;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: White;
+        }
+
+        .content {
+            padding: 20px;
+            flex-grow: 1; 
+        }
+
+        .services {
+            margin-bottom: 20px;
+        }
+
+        .about-us {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: Black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <center><h1 style="color:White;">Welcome to DevZone</h1></center>
+    </header>
+
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="About Us.html>About Us</a>
+        <a href="Contact Us.html">Contact</a>
+        <a href="Course.html">Course</a>
+    </nav>
+<center><form action="/login" method="post" style="color: white;">
+  <h2><label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"></h2>
+  <h2><label for="password">Password:</label><br>
+  <input type="password" id="password" name="password"></h2>
+  <h1><b><input type="submit" value="Login"></h1><br><br><br><br>
+</form></center>
+   <br><br>
+    <footer>
+        <p>&copy; Web development courses</p>
+    </footer>
+
+</body>
+</html>
